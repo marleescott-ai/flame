@@ -2,19 +2,24 @@
 
 PREDICT:
 What will the page look like? Where will it appear?
-
+There will be yellow profile, with an image and writing withen a red border. 
 RUN:
 Check that the image shows up and fits inside the card.
 
 INVESTIGATE:
 - What does max-width do?
+It's the image of the man bigger than the yellow profile.
 - What’s the difference between margin and padding?
+Padding moves the unordered list, the margin makes the distance between the profile card and the top of the webiste further away
 - What are the . and # doing?
+The # makes the colour, style, and font apply. The . makes the image larger and not inside the card.
 
 MODIFY:
 - Round the image corners more
+Border-radious
 - Add a drop shadow
 - Try changing the image position
+
 
 MAKE:
 Create your own profile card with a new image and style.
