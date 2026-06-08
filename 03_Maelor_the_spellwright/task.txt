@@ -1,10 +1,12 @@
 🟧 PRIMM: Style Your Candidate
 
 PREDICT:
+Before opening the page. Read the code and answer below:
 What will the page look like? Where will it appear?
 There will be yellow profile, with an image and writing withen a red border. 
 RUN:
 Check that the image shows up and fits inside the card.
+What did you see? Were you right or wrong?
 
 INVESTIGATE:
 - What does max-width do?
