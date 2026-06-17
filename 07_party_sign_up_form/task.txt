@@ -7,7 +7,9 @@ We’ll follow the PRIMM model again:
 🟡 PREDICT  
 Look at the code in the JS panel. Don’t run it yet.  
 What do you think will happen when you type your name and region and click the button?  
+It will give a output and putting in our input in places.
 What do you think would happen if you left one of the fields blank?
+The output would be printed but with no answers.
 
 🟢 RUN  
 Try it out. Type your name and region and click “Join the Party”.  
@@ -15,11 +17,11 @@ What happens? Is it what you expected?
 
 🔵 INVESTIGATE  
 Let’s pick apart the code:
-- What keyword is used to make a variable?
-- What is the = sign doing?
-- Which line grabs the name?
-- Which line grabs the region?
-- How is the final message put together?
+- What keyword is used to make a variable? Let
+- What is the = sign doing? It connect the variable to a value. Trust. 
+- Which line grabs the name? 2
+- Which line grabs the region? 3
+- How is the final message put together? 5
 
 🟠 MODIFY  
 Now try improving how the message is displayed:
