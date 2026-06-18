@@ -11,9 +11,9 @@ What happens when you reach $50? $100?
 Click the “Give $10” button a few times and see what changes on the page.
 
 🔵 INVESTIGATE  
-- What variable is keeping track of the total?
-- Where is it being updated?
-- How does the code decide which message to show?
+- What variable is keeping track of the total? totalDontations
+- Where is it being updated? line 4
+- How does the code decide which message to show? if statement line 10
 
 🟠 MODIFY  
 - Add a **Refund $10** button that subtracts from the total.
