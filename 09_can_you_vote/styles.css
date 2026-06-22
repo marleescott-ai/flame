@@ -1,0 +1,7 @@
+body {
+background: #ed61e6;
+background: linear-gradient(90deg,rgba(237, 97, 230, 1) 0%, rgba(255, 242, 0, 1) 50%, rgba(122, 206, 255, 1) 100%);
+}
+div {
+    background-color: rgba(137, 43, 226, 0.301);
+}
