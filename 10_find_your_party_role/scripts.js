@@ -1,6 +1,12 @@
 function matchRole() {
   let positionElement = document.querySelector('input[name="alignment"]:checked');
   let message = "";
+  let patti = document.getElementById('patti')
+  patti.hidden = false
+  let elj = document.getElementById('elj')
+  elj.hidden = false
+  let wizard = document.getElementById('wizard')
+  wizard.hidden = false
 
   if (!positionElement) {
     message = "Please choose a party alignment.";
@@ -16,15 +22,17 @@ function matchRole() {
     }
 
     if (selectedIssues.length == 0) {
-      message = "Please select at least one issue you care about.";
+      message = "Please Select At Least One Element You Desire.";
     } else if (position == "progressive" && selectedIssues.includes("environment")) {
-      message = "🌱 You’d be perfect for the Outreach Team.";
+      message = "🔥 You’d be perfect for the Hot Team.";
     } else if (position == "moderate" && selectedIssues.includes("economy")) {
-      message = "📊 You’d make a great Policy Analyst."
+      message = "🛣️ You’d Make A Great Road Laying Team Member."
     } else if (position == "traditional" || selectedIssues.includes("education")) {
-      message = "🎖️ You’d bring valuable perspective to Strategy.";
+      message = "🧼 You’d Bring Valuable Perspective To JAWS OF DOOM Cleaning Squad.";
+    } else if (position == "traditional" || selectedIssues.includes("housing")) {
+      message = "🏰 You’d Be The Best At Building The New Castle.";
     } else {
-      message = "🤝 You’d be a great all-round supporter!";
+      message = "🧪 You Bring No Value To The Party... The Wizard will take you for expermination!";
     }
   }
 

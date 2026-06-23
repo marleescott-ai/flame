@@ -1,0 +1,38 @@
+body {
+background: #d082e8;
+background: radial-gradient(circle,rgba(208, 130, 232, 0.77) 0%, rgba(255, 242, 0, 0.77) 50%, rgba(255, 122, 122, 0.77) 100%);
+}
+
+h2 {
+  color: #74036e;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+}
+h4 {
+    color: #480aac;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+}
+p {
+    color: #041600;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 8mm;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto; 
+  font-size: 6mm;
+  font-family: monospace;
+}
+button {
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto; 
+  font-size: 6mm;  
+}

@@ -7,6 +7,8 @@ This task uses two input types you haven't worked with yet:
 🟡 PREDICT  
 What will happen if you pick Progressive and tick Environment?  
 What if you tick everything?
+line 20 shows what would happen if you tick progressive an dtick enviroment which is then the message is line 21
+if you tick everything it will print "🤝 You’d be a great all-round supporter!" on becasue of line 26 - 27
 
 🟢 RUN  
 Try different combinations and see which role the system suggests.
